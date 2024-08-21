@@ -1,0 +1,50 @@
+header {
+    border-bottom: 1px solid #292828;
+    color: white;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+.site-header {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens para as extremidades do cabeçalho */
+    padding: 20px;
+}
+.site-header h1 {
+    margin: 0;
+    padding-left: 70px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    margin-right: 100px;
+    color: white;
+}
+
+.menu li {
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu a {
+    color: White;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
