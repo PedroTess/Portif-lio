@@ -1,0 +1,71 @@
+header {
+    border-bottom: 1px solid black;
+    color: white;
+    background-color: black;
+}
+body {
+    background-color: #191919;
+    padding: 0;
+    margin: 0;
+}
+.site-header {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens para as extremidades do cabeçalho */
+    padding: 20px;
+}
+.site-header h1 {
+    margin: 0;
+    padding-left: 70px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    margin-right: 100px;
+    color: white;
+}
+
+.menu li {
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu a {
+    color: White;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #01A0DA;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.text-center {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 150px;
+    background-color: black;
+    margin: 0;
+}
+
+.text-center h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+.text-center h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
