@@ -1,10 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #01A0DA;
     color: white;
     background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 body {
-    background-color: #0f0f0f;
+    background-color: #1c1c1c;
     padding: 0;
     margin: 0;
 }
@@ -33,7 +40,7 @@ body {
 
 .menu li {
     margin-left: 40px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -56,15 +63,15 @@ nav {
     display: flex;
     justify-content: space-between; /* Espaça os itens para as extremidades */
     align-items: center; /* Alinha verticalmente no centro */
-    padding: 0px;
     background-color: black;
     margin: 0px;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 80px;
 }
 
 .text-content-introduction {
-    margin-left: 350px;
+    margin-left: 400px;
 
 }
 
@@ -80,12 +87,70 @@ nav {
 }
 
 .image-content img {
-    height: 400px;
-    margin-right: 350px;
+    height: 300px;
+    margin-right: 400px;
     padding: 0;
 }
 .text-content-description {
     color: white;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+}
+.text-content-description {
+    font-family: sans-serif;
+    text-align: center;
+}
+.text-content-description h1 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.text-content-description p {
+    margin-left: 340px;
+    margin-right: 340px;
+    color: #898989;
+    line-height: 1.2;
+    font-size: 1.1rem;
+}
+.text-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: white ;
+}
+.text-skills h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.text-skills img {
+    margin: 0 15px;
+}
+.skills-img {
+    display: flex;
+    justify-content: center; 
+}
+.skills-img img {
+    height: 180px;
+}
+.js img {
+    height: 173px;
+    margin-left: 30px;
+}
+.html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.js {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
