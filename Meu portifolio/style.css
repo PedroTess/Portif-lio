@@ -2,24 +2,27 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    border-bottom: 1px solid #01A0DA;
-    color: white;
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
 body {
     background-color: #1c1c1c;
     padding: 0;
     margin: 0;
 }
+
+header {
+    border-bottom: 1px solid #01A0DA;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: white;
+}
+
 .site-header {
     display: flex;
-    justify-content: space-between; /* Espaça os itens para as extremidades do cabeçalho */
+    justify-content: space-between;
     padding: 20px;
 }
+
 .site-header h1 {
     margin: 0;
     padding-left: 70px;
@@ -28,14 +31,15 @@ body {
     color: #01A0DA;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
 .menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    list-style: none;
     display: flex; 
-    justify-content: center;
     margin-right: 100px;
-    color: white;
 }
 
 .menu li {
@@ -45,112 +49,92 @@ body {
 }
 
 .menu a {
-    color: White;
+    color: white;
     text-decoration: none;
 }
 
 .menu a:hover {
     color: #01A0DA;
-
-}
-
-nav {
-    display: flex;
-    align-items: center;
 }
 
 .text-introduction {
     display: flex;
-    justify-content: space-between; /* Espaça os itens para as extremidades */
-    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
-    margin: 0px;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 80px;
 }
 
-.text-content-introduction {
-    margin-left: 400px;
-
+#CV {
+    background-color: transparent;
+    border: 2px solid #01A0DA;
+    color: #01A0DA;
+    padding: 12px 24px;
+    font-size: 13px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
-.text-content-introduction h1 {
-    font-size: 35px;
+.text-content-introduction {
+    margin-left: 400px;
+}
+.text-content-introduction h1, h4 {
     margin: 0;
-    padding: 0;
-} 
-.text-content-introduction h4 {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
+
 }
 
 .image-content img {
     height: 300px;
     margin-right: 400px;
-    padding: 0;
-}
-.text-content-description {
-    color: white;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center; 
     margin-top: 20px;
 }
-.text-content-description {
-    font-family: sans-serif;
+
+.text-description {
+    color: white;
     text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
 }
-.text-content-description h1 {
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-.text-content-description p {
-    margin-left: 340px;
-    margin-right: 340px;
+
+.text-description p {
+    margin: 0 340px;
     color: #898989;
-    line-height: 1.2;
+    line-height: 1.5;
     font-size: 1.1rem;
 }
+
 .text-skills {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    color: white ;
+    color: white;
 }
-.text-skills h1 {
-    font-size: 25px;
-    font-family: sans-serif;
-}
-.text-skills img {
-    margin: 0 15px;
-}
+
 .skills-img {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
-.skills-img img {
-    height: 180px;
-}
-.js img {
-    height: 173px;
-    margin-left: 30px;
-}
-.html {
+
+.skill {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: sans-serif;
+    background-color: black;
+    height: 200px;
+    margin-right: 20px;
 }
-.css {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.skill img {
+    margin-top: 15px;
+    height: 128px;
 }
-.js {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.skill h2 {
+    margin-top: 10px;
+    font-size: 18px;
 }
